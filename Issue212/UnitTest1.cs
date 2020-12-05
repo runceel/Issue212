@@ -34,6 +34,7 @@ namespace Issue212
 
     class ReactiveThing
     {
+        // ReadOnlyReactiveProperty is prefer in this case.
         public ReadOnlyReactiveProperty<int> RpInt { get; }
         public SomeModel Model { get; }
         public ReactiveThing()
